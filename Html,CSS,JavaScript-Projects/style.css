@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Rubik+Glitch&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Rubik+Glitch&display=swap');
+
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar CSS */
+nav{
+    font-family: 'Rubik Glitch', system-ui;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background: linear-gradient(rgb(248, 81, 3), rgb(0, 225, 255));
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 15px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+/* Ends of Nav Bar */
+
+/* Bottom Section */
+.container{
+    min-height: 70vh;
+    background: linear-gradient(rgb(213, 27, 250), rgb(98, 0, 255),rgb(0, 255, 242));
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 34px;
+    padding: 35px;
+    background-image: url('media/images/bg-img.jpg');
+    background-repeat: no-repeat;
+    
+
+}
+.bottom{
+    position: sticky;
+    height: 110px;
+    background: linear-gradient(rgb(248, 81, 3), rgb(0, 225, 255));
+    color: white;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+/* Ends Bottom Section */
+
+
+
+
+
+
+
+
